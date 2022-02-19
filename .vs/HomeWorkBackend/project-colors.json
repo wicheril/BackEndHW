@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1c730f48-3008-4ef0-bc50-90b9e902fa85": {
+      "ProjectGuid": "1c730f48-3008-4ef0-bc50-90b9e902fa85",
+      "DisplayName": "BackEnd",
+      "ColorIndex": 0
+    },
+    "314a9dc3-f2fe-44e2-ab57-6fd9b3ebb921": {
+      "ProjectGuid": "314a9dc3-f2fe-44e2-ab57-6fd9b3ebb921",
+      "DisplayName": "DAL",
+      "ColorIndex": 1
+    },
+    "52d0b506-0eb0-4b87-b668-276d747efa19": {
+      "ProjectGuid": "52d0b506-0eb0-4b87-b668-276d747efa19",
+      "DisplayName": "HomeWorkBackend",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

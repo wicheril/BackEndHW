@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeWorkBackend.Views.Product">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Load something"
+                    Command="{Binding SomeCommand}"/>
+
+            <StackLayout
+                BindableLayout.ItemsSource="{Binding Products}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame
+                                BorderColor="Black"
+                                HasShadow="True"
+                                Margin="10">
+                                <StackLayout>
+                                    <Label Text="{Binding Id}"
+                                           FontSize="24"/>
+                                    <Label Text="{Binding Name}" 
+                                           FontSize="32"/>
+                                    <Label Text="{Binding Price}"
+                                           FontSize="20"/>
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
